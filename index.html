@@ -235,7 +235,7 @@ body {
 .main em { font-style: italic; }
 
 /* About Me */
-.about p { margin-bottom: 0.6rem; }
+.about p { margin-bottom: 0.6rem; text-indent: 2em; }
 
 /* Research Experience */
 .research {
@@ -537,7 +537,7 @@ footer {
     <!-- ===== About Me ===== -->
     <h1 id="about-me" class="reveal">👋 About Me</h1>
     <div class="about reveal">
-      <p>本科毕业于湘潭大学材料科学与工程学院（师昌绪班），以专业排名第二（<strong>2/154</strong>）保送至国防科技大学空天科学学院材料科学与工程专业硕士研究生，研究方向为纳米陶瓷材料及复合材料。</p>
+      <p>本科毕业于湘潭大学材料科学与工程学院（<a href="https://clxy.xtu.edu.cn/__local/9/14/5F/BE5F9CCCE7B2A8E6D8D0FE6DD7D_EE8401A8_46290.pdf?e=.pdf" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">师昌绪班</a>），以专业排名第二（<strong>2/154</strong>）保送至国防科技大学空天科学学院材料科学与工程专业硕士研究生，研究方向为纳米陶瓷材料及复合材料。</p>
       <p>研究聚焦于二维材料制备、复合材料开发、结构表征及性能优化与机器学习辅助材料设计。已投稿 <strong>SCI 一区</strong>论文、<strong>北大核心</strong>论文（第一作者）各一篇，参与国家发明专利一项。多次在学科竞赛中获奖，包括机械工程创新创业大赛国家一等奖、研究生数学建模竞赛国家三等奖等。</p>
       <p>具备材料研发全流程经验，能独立完成实验设计、数据分析和结果验证；具备半导体材料、热管理材料、电子封装材料及先进功能复合材料等方面的基础知识。</p>
     </div>
@@ -560,7 +560,7 @@ footer {
       <div class="edu-header">
         <img src="assets/logo-xtu.png" class="edu-logo" alt="湘潭大学">
         <div>
-          <div class="sch">湘潭大学 · 材料科学与工程学院（师昌绪班）</div>
+          <div class="sch">湘潭大学 · 材料科学与工程学院（<a href="https://clxy.xtu.edu.cn/__local/9/14/5F/BE5F9CCCE7B2A8E6D8D0FE6DD7D_EE8401A8_46290.pdf?e=.pdf" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">师昌绪班</a>）</div>
           <div class="meta">材料科学与工程（本科，GPA 3.89/4，排名 2/154） | 2020.09 – 2024.07</div>
           <div class="detail">方向：智能材料 | 荣誉：市校优秀毕业生、京东奖学金(1%)、伟人之托奖学金(3%)、甲等奖学金(2次)、三好学生(3次)</div>
           <div class="courses">主修课程：材料固体力学、大学物理、现代物理、固体物理、材料科学基础、物理化学、功能材料、电工与电子技术、材料力学</div>
@@ -652,16 +652,34 @@ footer {
     <ul class="honors reveal">
       <li><span class="dot sch"></span>市校优秀毕业生；京东奖学金(1%)；伟人之托奖学金(3%)；甲等奖学金(2次)；三好学生(3次)；起点奖学金</li>
       <li><span class="dot nat1"></span>中国大学生机械工程创新创业大赛 — 热处理创新创业比赛 — 国家一等奖 <span class="role">· 2023.06–2023.09</span></li>
-      <li><span class="dot nat3"></span>中国研究生数学建模竞赛（华为杯）— 国家三等奖 <span class="role">· 队长 &amp; 建模手 &amp; 论文手 · 2025.09–2025.10</span>
-        <span class="desc">围绕煤矿围岩裂隙识别，融合 YOLOv13 与改进 Canny 边缘检测，构建"裂隙识别—定量表征—三维重构—工程决策"全流程智能分析系统</span>
-      </li>
-      <li><span class="dot intl"></span>美国大学生数学建模竞赛 — 优秀奖（Honorable Mention） <span class="role">· 建模手 &amp; 论文手 · 2025.01–2025.03</span>
-        <span class="desc">基于 LSTM 与 ARIMAX 混合模型预测 2028 年奥运奖牌分布，结合随机森林、AHP、TOPSIS 及因果推断量化"名帅效应"</span>
-      </li>
       <li><span class="dot prov"></span>全国周培源大学生力学竞赛 — 省级三等奖 <span class="role">· 2023.06–2023.09</span></li>
       <li><span class="dot sch"></span>湘潭大学第七届热处理创新创业比赛 — 校级一等奖 <span class="role">· 2023.05</span></li>
       <li><span class="dot sch"></span>湘潭大学力学竞赛 — 校级二等奖 <span class="role">· 2023.05</span></li>
     </ul>
+
+    <div class="research reveal">
+      <div class="rh">
+        <div class="title">中国研究生数学建模竞赛（华为杯）— 国家三等奖</div>
+        <div class="date">2025.09 – 2025.10</div>
+      </div>
+      <div class="meta"><span class="role">队长 &amp; 建模手 &amp; 论文手</span></div>
+      <ul>
+        <li><span class="lab">【项目背景】</span>围绕煤矿围岩裂隙识别问题，需要构建从图像识别到工程决策的全流程智能分析系统。</li>
+        <li><span class="lab">【核心工作】</span>融合 YOLOv13 与改进 Canny 边缘检测，构建"裂隙识别—定量表征—三维重构—工程决策"全流程智能分析系统。</li>
+      </ul>
+    </div>
+
+    <div class="research reveal">
+      <div class="rh">
+        <div class="title">美国大学生数学建模竞赛 — 优秀奖（Honorable Mention）</div>
+        <div class="date">2025.01 – 2025.03</div>
+      </div>
+      <div class="meta"><span class="role">建模手 &amp; 论文手</span></div>
+      <ul>
+        <li><span class="lab">【项目背景】</span>预测 2028 年奥运奖牌分布，并量化"名帅效应"对国家奥运成绩的影响。</li>
+        <li><span class="lab">【核心工作】</span>基于 LSTM 与 ARIMAX 混合模型预测奖牌分布，结合随机森林、AHP、TOPSIS 及因果推断量化"名帅效应"。</li>
+      </ul>
+    </div>
 
     <!-- ===== Skills ===== -->
     <h1 id="skills" class="reveal">🛠 Skills</h1>
